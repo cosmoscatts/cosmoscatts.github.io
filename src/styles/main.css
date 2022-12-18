@@ -1,0 +1,23 @@
+@import "./about.css";
+@import "./fonts.css";
+@import "./markdown.css";
+@import "./post.css";
+
+html,
+body,
+#app {
+  @apply h-full m-0 p-0;
+}
+
+html.dark {
+  --at-apply: bg-gray-700;
+  color-scheme: dark;
+}
+
+#nprogress {
+  @apply pointer-events-none;
+}
+
+#nprogress .bar {
+  --at-apply: fixed opacity-75 top-0 left-0 w-full h-0.5 z-50 bg-brand;
+}
