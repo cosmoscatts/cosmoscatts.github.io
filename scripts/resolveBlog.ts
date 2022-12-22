@@ -1,9 +1,9 @@
-import { resolve } from 'path'
+import type { RouteMeta } from 'vue-router'
 import fs from 'fs-extra'
 import matter from 'gray-matter'
 import dayjs from 'dayjs'
-import type { RouteMeta } from 'vue-router'
-import { type ReadingTime, readingTime } from '.'
+import { type ReadingTime, readingTime } from './readingTime'
+import { resolvePath } from './utils'
 
 export interface BlogFrontmatter {
   title: string
@@ -32,7 +32,7 @@ const isBlog = (route: any) =>
 export const resolveBlogFile = (route: any) => {
   if (!isBlog(route)) return
 
-  const path = resolve(__dirname, '..', route.component.slice(1))
+  const path = resolvePath(route.component.slice(1))
   const md = fs.readFileSync(path, 'utf-8')
   const { content, data } = matter(md)
 
