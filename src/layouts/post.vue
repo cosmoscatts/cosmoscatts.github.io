@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { slugify } from '../../scripts'
+import { slugify } from '../../scripts/slugify'
 import { formatDate, isClient } from '~/utils'
 
 const router = useRouter()
