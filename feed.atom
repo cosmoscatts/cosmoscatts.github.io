@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cosmoscatts.ren</id>
+    <title>Cosmoscatts</title>
+    <updated>2022-12-22T09:04:06.324Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Cosmoscatts</name>
+        <uri>https://cosmoscatts.ren</uri>
+    </author>
+    <link rel="alternate" href="https://cosmoscatts.ren"/>
+    <link rel="self" href="https://cosmoscatts.ren/feed.atom"/>
+    <subtitle>Just infected with a disease called curiosity.</subtitle>
+    <rights>© Cosmoscatts 2022</rights>
+    <entry>
+        <title type="html"><![CDATA[My English Blog]]></title>
+        <id>https://cosmoscatts.ren/posts/2022-09-28-my-en-blog</id>
+        <link href="https://cosmoscatts.ren/posts/2022-09-28-my-en-blog"/>
+        <updated>2022-09-28T00:00:00.000Z</updated>
+        <author>
+            <name>Cosmoscatts</name>
+            <uri>https://cosmoscatts.ren</uri>
+        </author>
+        <rights>© Cosmoscatts 2022</rights>
+    </entry>
+</feed>

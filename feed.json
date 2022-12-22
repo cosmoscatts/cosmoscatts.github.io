@@ -1,0 +1,23 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Cosmoscatts",
+    "home_page_url": "https://cosmoscatts.ren",
+    "feed_url": "https://cosmoscatts.ren/feed.json",
+    "description": "Just infected with a disease called curiosity.",
+    "author": {
+        "name": "Cosmoscatts",
+        "url": "https://cosmoscatts.ren"
+    },
+    "items": [
+        {
+            "id": "https://cosmoscatts.ren/posts/2022-09-28-my-en-blog",
+            "url": "https://cosmoscatts.ren/posts/2022-09-28-my-en-blog",
+            "title": "My English Blog",
+            "date_modified": "2022-09-28T00:00:00.000Z",
+            "author": {
+                "name": "Cosmoscatts",
+                "url": "https://cosmoscatts.ren"
+            }
+        }
+    ]
+}
