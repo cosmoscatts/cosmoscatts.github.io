@@ -1,13 +1,19 @@
 <script setup lang="ts">
 import { isClient, isDark } from '~/utils'
+import {
+  description,
+  themeDark,
+  themeLight,
+  title,
+} from '~/meta'
 
 useHead({
-  title: 'Cosmoscatts',
+  title,
   meta: [
-    { name: 'description', content: 'Just infected with a disease called curiosity.' },
+    { name: 'description', content: description },
     {
       name: 'theme-color',
-      content: computed(() => (isDark.value ? '#374151' : '#ffffff')),
+      content: computed(() => (isDark.value ? themeDark : themeLight)),
     },
   ],
 })
@@ -23,4 +29,3 @@ watch(
 <template>
   <RouterView />
 </template>
-

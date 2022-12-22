@@ -1,18 +1,15 @@
-import Shiki from 'markdown-it-shiki'
+import type MarkdownIt from 'markdown-it'
 import LinkAttributes from 'markdown-it-link-attributes'
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
 import anchor from 'markdown-it-anchor'
-import type MarkdownIt from 'markdown-it'
-import { slugify } from '.'
+import { slugify } from '..'
+import CodeBlock from './codeBlock'
+import HighlightLines from './highlightLines'
 
 export const installMarkdownPlugins = (md: MarkdownIt) => {
-  md.use(Shiki, {
-    theme: {
-      light: 'github-light',
-      dark: 'github-dark-dimmed',
-    },
-  })
+  md.use(HighlightLines)
+  md.use(CodeBlock)
 
   md.use(anchor, {
     slugify,

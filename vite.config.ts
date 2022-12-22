@@ -9,10 +9,20 @@ import Markdown from 'vite-plugin-vue-markdown'
 import Unocss from 'unocss/vite'
 import generateSitemap from 'vite-ssg-sitemap'
 import {
+  generateRSS,
+  getTagPathsFromFiles,
   installMarkdownPlugins,
-  resolvePostFile,
-  resolvePostList,
+  resolveBlogFile,
+  resolveBlogList,
+  resolveTags,
+  shiki,
 } from './scripts'
+import {
+  author,
+  description,
+  hostname,
+  title,
+} from './src/meta'
 
 export default defineConfig({
   resolve: {
@@ -28,8 +38,11 @@ export default defineConfig({
     Pages({
       pagesDir: 'pages',
       extensions: ['vue', 'md'],
-      extendRoute: route => resolvePostFile(route),
-      onRoutesGenerated: routes => resolvePostList(routes),
+      extendRoute: route => resolveBlogFile(route),
+      onRoutesGenerated: (routes) => {
+        resolveBlogList(routes)
+        resolveTags(routes)
+      },
     }),
     Layouts(),
     AutoImport({
@@ -40,6 +53,7 @@ export default defineConfig({
         '@vueuse/head',
         '@vueuse/core',
       ],
+      dirs: ['src/composables'],
       dts: 'src/auto-imports.d.ts',
     }),
     Components({
@@ -51,12 +65,40 @@ export default defineConfig({
     Markdown({
       wrapperClasses: 'prose prose-lg m-auto text-left',
       headEnabled: true,
+      markdownItOptions: {
+        highlight: await shiki({
+          light: 'github-light',
+          dark: 'github-dark-dimmed',
+        }),
+      },
       markdownItSetup: md => installMarkdownPlugins(md),
     }),
   ],
   ssgOptions: {
     script: 'async',
     formatting: 'minify',
-    onFinished: () => generateSitemap(),
+    onFinished: () => {
+      generateSitemap({
+        hostname,
+      })
+      generateRSS({
+        hostname,
+        title,
+        description,
+        author,
+        sourceDir: 'pages/posts',
+        exclude: ['index.md', 'tags/*'],
+      })
+    },
+    includedRoutes: async (paths) => {
+      const p = paths.filter(
+        i => !['/:all(.*)*', '/posts/tags/:all(.*)', ''].includes(i),
+      )
+      const tagPaths = await getTagPathsFromFiles('pages/posts', [
+        'index.md',
+        'tags/*',
+      ])
+      return p.concat(tagPaths)
+    },
   },
 })

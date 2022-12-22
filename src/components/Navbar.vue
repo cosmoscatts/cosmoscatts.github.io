@@ -54,6 +54,10 @@ if (isClient) {
         <span lt-md:hidden>Blog</span>
       </router-link>
 
+      <a nav-item href="/feed.xml" title="RSS" target="_blank">
+        <div i-jam:rss-feed />
+      </a>
+
       <button nav-item title="Toggle dark" @click="toggleDark()">
         <div i="carbon-sun dark:carbon-moon" />
       </button>

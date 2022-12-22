@@ -13,6 +13,7 @@ declare module '@vue/runtime-core' {
     Links: typeof import('./components/Links.vue')['default']
     ListPosts: typeof import('./components/ListPosts.vue')['default']
     ListProjects: typeof import('./components/ListProjects.vue')['default']
+    ListTags: typeof import('./components/ListTags.vue')['default']
     Navbar: typeof import('./components/Navbar.vue')['default']
     Nutshell: typeof import('./components/Nutshell.vue')['default']
     Project: typeof import('./components/Project.vue')['default']

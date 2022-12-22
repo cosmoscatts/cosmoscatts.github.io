@@ -1,40 +1,23 @@
 <script setup lang="ts">
-import dayjs from 'dayjs'
 import { formatDate } from '~/utils'
 
-interface Blog {
-  path: string
-  title: string
-  date: string
-}
-
 const router = useRouter()
+const path = computed(() => router.currentRoute.value.path)
 
-const blogs: Blog[] = router
-  .getRoutes()
-  .filter((i: any) => i.meta.layout === 'post')
-  .map(
-    (i: any): Blog => ({
-      path: i.path,
-      title: i.meta.frontmatter.title,
-      date: i.meta.date,
-    }),
-  )
-  .sort((a: Blog, b: Blog) => dayjs(b.date).unix() - dayjs(a.date).unix())
+const { tagMap, tags } = useTags()
 
-const blogMap: Record<string, Blog[]> = {}
-
-for (const b of blogs) {
-  const y = b.date.substring(0, 4)
-  blogMap[y] ? blogMap[y].push(b) : (blogMap[y] = [b])
-}
+const tag = computed(() => {
+  const tagName = tags.value.find(t => tagMap.value[t].path === path.value)
+  return tagName
+})
+const { yearToBlog } = useBlog(tag)
 </script>
 
 <template>
-  <template v-for="key in Object.keys(blogMap)" :key="key">
+  <template v-for="key in Object.keys(yearToBlog)" :key="key">
     <h3>{{ key }}</h3>
     <div
-      v-for="route in blogMap[key]"
+      v-for="route in yearToBlog[key]"
       :key="route.path"
       flex
       m="y-1 x-0.5"
@@ -43,9 +26,9 @@ for (const b of blogs) {
       <div w-14 h-6 mr-2 leading-6 op-50 text-sm>
         {{ formatDate(route.date, false) }}
       </div>
-      <router-link class="flex-1 !text-c" :to="route.path">
+      <RouterLink class="flex-1 !text-c" :to="route.path">
         {{ route.title }}
-      </router-link>
+      </RouterLink>
     </div>
   </template>
 </template>
