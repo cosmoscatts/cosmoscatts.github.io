@@ -5,5 +5,5 @@ import { sync } from 'cross-spawn'
 export const lastUpdated = (file: string) => {
   const child = sync('git', ['log', '-1', '--pretty="%ci"', file])
   const output = child.stdout.toString()
-  return new Date(output).toLocaleString()
+  return new Date(output).toLocaleString('zh')
 }
