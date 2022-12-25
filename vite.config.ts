@@ -21,8 +21,9 @@ import {
   author,
   description,
   hostname,
+  shikiTheme,
   title,
-} from './src/meta'
+} from './shared'
 
 export default defineConfig({
   resolve: {
@@ -38,7 +39,7 @@ export default defineConfig({
     Pages({
       pagesDir: 'pages',
       extensions: ['vue', 'md'],
-      extendRoute: route => resolveBlogFile(route),
+      extendRoute: resolveBlogFile,
       onRoutesGenerated: (routes) => {
         resolveBlogList(routes)
         resolveTags(routes)
@@ -66,10 +67,7 @@ export default defineConfig({
       wrapperClasses: 'prose prose-lg m-auto text-left',
       headEnabled: true,
       markdownItOptions: {
-        highlight: await shiki({
-          light: 'github-light',
-          dark: 'github-dark-dimmed',
-        }),
+        highlight: await shiki(shikiTheme),
       },
       markdownItSetup: md => installMarkdownPlugins(md),
     }),

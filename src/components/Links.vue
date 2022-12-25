@@ -19,8 +19,10 @@ const isExternal = (link: string) => {
       v-for="(item, i) in links"
       :key="`social-${i}-${item.icon}`"
       btn font-normal px-3 h-9 m="r-1 b-1"
+      :title="item.name || item.link"
       :href="item.link"
       :target="isExternal(item.link) ? '_blank' : '_self'"
+      rel="noopener noreferrer"
     >
       <div :class="item.icon" w-5 h-5 />
       <div v-if="item.name">{{ item.name }}</div>

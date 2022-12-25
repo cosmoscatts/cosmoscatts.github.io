@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { isClient, isDark } from '~/utils'
 import {
   description,
   themeDark,
   themeLight,
   title,
-} from '~/meta'
+} from '../shared'
+import { isClient, isDark } from '~/utils'
 
 useHead({
   title,

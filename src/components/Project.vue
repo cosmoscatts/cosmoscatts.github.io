@@ -22,10 +22,10 @@ onMounted(async () => item.repo && (star.value = await getRepoStars()))
     border="1 c hover:transparent"
     bg="hover:gray-100 dark:hover:gray-600"
     class="!no-underline !text-c"
-    rel="noopener noreferrer"
     target="_blank"
     :href="item.link"
     :title="item.name"
+    rel="noopener noreferrer"
   >
     <div flex-auto>
       <div

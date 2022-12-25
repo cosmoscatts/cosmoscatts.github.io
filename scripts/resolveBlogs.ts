@@ -2,7 +2,7 @@ import type { RouteMeta } from 'vue-router'
 import fs from 'fs-extra'
 import matter from 'gray-matter'
 import dayjs from 'dayjs'
-import { type ReadingTime, readingTime } from './readingTime'
+import { type ReadingTime, readingTime } from './blog/readingTime'
 import { resolvePath } from './utils'
 
 export interface BlogFrontmatter {
