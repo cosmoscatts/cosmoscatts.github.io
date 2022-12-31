@@ -22,6 +22,7 @@ specifiers:
   gray-matter: ^4.0.3
   markdown-it: ^13.0.1
   markdown-it-anchor: ^8.6.6
+  markdown-it-container: ^3.0.0
   markdown-it-link-attributes: ^4.0.1
   markdown-it-shiki: ^0.7.2
   markdown-it-table-of-contents: ^0.6.0
@@ -72,6 +73,7 @@ devDependencies:
   gray-matter: registry.npmmirror.com/gray-matter/4.0.3
   markdown-it: registry.npmmirror.com/markdown-it/13.0.1
   markdown-it-anchor: registry.npmmirror.com/markdown-it-anchor/8.6.6_ea7kj7wzjkld5jo2noyjqxi764
+  markdown-it-container: registry.npmmirror.com/markdown-it-container/3.0.0
   markdown-it-link-attributes: registry.npmmirror.com/markdown-it-link-attributes/4.0.1
   markdown-it-shiki: registry.npmmirror.com/markdown-it-shiki/0.7.2
   markdown-it-table-of-contents: registry.npmmirror.com/markdown-it-table-of-contents/0.6.0
@@ -3960,6 +3962,12 @@ packages:
     dependencies:
       '@types/markdown-it': registry.npmmirror.com/@types/markdown-it/12.2.3
       markdown-it: registry.npmmirror.com/markdown-it/13.0.1
+    dev: true
+
+  registry.npmmirror.com/markdown-it-container/3.0.0:
+    resolution: {integrity: sha512-y6oKTq4BB9OQuY/KLfk/O3ysFhB3IMYoIWhGJEidXt1NQFocFK2sA2t0NYZAMyMShAGL6x5OPIbrmXPIqaN9rw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/markdown-it-container/-/markdown-it-container-3.0.0.tgz}
+    name: markdown-it-container
+    version: 3.0.0
     dev: true
 
   registry.npmmirror.com/markdown-it-link-attributes/4.0.1:

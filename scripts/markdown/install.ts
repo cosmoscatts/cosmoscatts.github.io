@@ -6,10 +6,12 @@ import anchor from 'markdown-it-anchor'
 import { slugify } from '..'
 import CodeBlock from './codeBlock'
 import HighlightLines from './highlightLines'
+import Container from './container'
 
 export const installMarkdownPlugins = (md: MarkdownIt) => {
   md.use(HighlightLines)
   md.use(CodeBlock)
+  md.use(Container)
 
   md.use(anchor, {
     slugify,
