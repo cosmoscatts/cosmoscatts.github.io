@@ -1,1 +1,0 @@
-import{_ as e,r as s,o as c,c as a,w as n,a as r,b as _}from"./app-97d35644.js";const u={};function i(m,l){const o=s("RouterView"),t=r;return c(),a(t,{class:"about"},{default:n(()=>[_(o)]),_:1})}const f=e(u,[["render",i],["__file","/home/runner/work/cosmoscatts.github.io/cosmoscatts.github.io/src/layouts/about.vue"]]);export{f as default};
