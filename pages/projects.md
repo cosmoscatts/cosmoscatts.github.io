@@ -66,15 +66,15 @@ projects:
         - i-logos:vue
         - i-logos:typescript-icon
       repo: cosmoscatts/oh-avatar
-    - name: Petite
-      link: https://github.com/cosmoscatts/petite
+    - name: Frais
+      link: https://github.com/cosmoscatts/frais
       desc: A backstage management template with vue3 and naive-ui
       icon: i-akar-icons-plane
       tech:
         - i-logos:vue
         - i-logos:typescript-icon
         - i-logos-naiveui
-      repo: cosmoscatts/petite
+      repo: cosmoscatts/frais
     - name: Parfait
       link: https://github.com/cosmoscatts/parfait
       desc: A backstage management template with vue3 and arco-design
