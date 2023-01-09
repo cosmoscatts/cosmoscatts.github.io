@@ -16,3 +16,12 @@ export const editLink = {
     'https://github.com/cosmoscatts/cosmoscatts.github.io/edit/master/pages:path',
   text: 'Edit this page on GitHub',
 }
+
+export const giscus = {
+  repo: 'cosmoscatts/cosmoscatts.github.io',
+  repoId: 'R_kgDOIotUQg',
+  category: 'Announcements',
+  categoryId: 'DIC_kwDOIotUQs4CTetz',
+  light: 'light',
+  dark: `${hostname}/css/giscus-dark.css`,
+}

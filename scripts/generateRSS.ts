@@ -29,7 +29,7 @@ export interface RSSOptions {
   author?: string
   /**
    * Copyright
-   * @default "© ${author} 2022"
+   * @default "© ${author} 2023"
    */
   copyright?: string
   /**
@@ -50,7 +50,7 @@ export interface RSSOptions {
 }
 
 const resolveOptions = (options: RSSOptions) => {
-  const copyright = `© ${options.author} 2022`
+  const copyright = `© ${options.author} 2023`
 
   return Object.assign(
     {
