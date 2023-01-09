@@ -4,10 +4,10 @@
         <title>Cosmoscatts</title>
         <link>https://cosmoscatts.ren</link>
         <description>Just infected with a disease called curiosity.</description>
-        <lastBuildDate>Sun, 01 Jan 2023 15:11:28 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Jan 2023 05:41:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>© Cosmoscatts 2022</copyright>
+        <copyright>© Cosmoscatts 2023</copyright>
         <atom:link href="https://cosmoscatts.ren/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[First Blog]]></title>
