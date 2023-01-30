@@ -2,7 +2,7 @@
 title: Blog - Cosmoscatts
 ---
 
-# Blog
+# Blog <ToggleLang />
 
 <ListTags />
 <ListPosts />

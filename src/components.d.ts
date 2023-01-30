@@ -20,5 +20,6 @@ declare module '@vue/runtime-core' {
     Project: typeof import('./components/Project.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    ToggleLang: typeof import('./components/ToggleLang.vue')['default']
   }
 }

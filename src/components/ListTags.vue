@@ -1,9 +1,14 @@
 <script setup lang="ts">
 const { tagMap, tags } = useTags()
-const totalPostNum = useBlog().blogs.value.length
+const lang = useLang()
 
-const postNum = (tag?: string) => {
-  if (!tag) return totalPostNum
+const totalblogNum = useBlog(lang).blogs.value.length
+const allURL = computed(() =>
+  lang.value === 'en' ? '/posts' : `/posts/${lang.value}`,
+)
+
+const blogNum = (tag?: string) => {
+  if (!tag) return totalblogNum
   else return tagMap.value[tag].blogs.length
 }
 </script>
@@ -12,16 +17,16 @@ const postNum = (tag?: string) => {
   <div>
     <span space-x-1 mr-3>
       <span i-uil:tag-alt text="sm c-light" />
-      <RouterLink to="/posts" un-text="!c-light">all</RouterLink>
-      <sup>{{ postNum() }}</sup>
+      <router-link :to="allURL" un-text="!c-light">all</router-link>
+      <sup>{{ blogNum() }}</sup>
     </span>
 
     <span v-for="tag in tags" :key="tagMap[tag].path" space-x-1 mr-3>
       <span i-uil:tag-alt text="sm c-light" />
-      <RouterLink :to="tagMap[tag].path" un-text="!c-light">
+      <router-link :to="tagMap[tag].path" un-text="!c-light">
         {{ tag }}
-      </RouterLink>
-      <sup>{{ postNum(tag) }}</sup>
+      </router-link>
+      <sup>{{ blogNum(tag) }}</sup>
     </span>
   </div>
 </template>
