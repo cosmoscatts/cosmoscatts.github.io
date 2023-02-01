@@ -1,1 +1,0 @@
-import{u as e,e as n}from"./app-e98bc6c9.js";const u=()=>{const t=e();return n(()=>{if(!t.path.startsWith("/posts"))return;const s=t.path.split("/");return s.length>2&&s[2]==="zh"?"zh":"en"})};export{u};
