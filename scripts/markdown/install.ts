@@ -3,12 +3,14 @@ import LinkAttributes from 'markdown-it-link-attributes'
 // @ts-expect-error missing types
 import TOC from 'markdown-it-table-of-contents'
 import anchor from 'markdown-it-anchor'
+import footnote from 'markdown-it-footnote'
 import { slugify } from '..'
 import CodeBlock from './codeBlock'
 import HighlightLines from './highlightLines'
 import Container from './container'
 
 export const installMarkdownPlugins = (md: MarkdownIt) => {
+  md.use(footnote)
   md.use(HighlightLines)
   md.use(CodeBlock)
   md.use(Container)
@@ -31,6 +33,6 @@ export const installMarkdownPlugins = (md: MarkdownIt) => {
 
   md.use(TOC, {
     includeLevel: [2, 3],
-    slugify: (s: string) => decodeURI(slugify(s)),
+    slugify,
   })
 }
