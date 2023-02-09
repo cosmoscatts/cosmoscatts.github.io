@@ -1,7 +1,3 @@
-.prose img {
-  @apply w-full;
-}
-
 .prose p {
   line-height: 1.55 !important;
 }
@@ -15,18 +11,51 @@
   --at-apply: no-underline hover:underline text-c-active font-normal;
 }
 
+.prose img,
+.prose video {
+  @apply mx-auto my-2;
+}
+
+.prose figure figcaption {
+  --at-apply: text-sm text-c-light;
+}
+
 .prose hr {
-  /* border-c */
-  border-top: 1px solid #e5e7eb;
+  border-top: 1px solid #e5e7eb;  /* border-c */
 }
 
 html.dark .prose hr {
-  /* border-c */
-  border-top: 1px solid #4b5563;
+  border-top: 1px solid #4b5563;  /* border-c */
+}
+
+.prose hr.footnotes-sep {
+  @apply hidden;
 }
 
 main:not(.post) a.header-anchor {
   @apply hidden;
+}
+
+/** Table **/
+
+.prose tr {
+  --at-apply: border-t border-c-dark;
+}
+
+.prose tr:last-child {
+  @apply border-b;
+}
+
+/** KaTeX **/
+
+.prose .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.prose .katex {
+  font-size: 1.1em;
 }
 
 /** Code blocks **/
@@ -40,7 +69,7 @@ html:not(.dark) .prose .shiki-dark {
 }
 
 .prose div[class*=language-] {
-  --at-apply: relative border border-c-dark pt-6 rounded-md;
+  --at-apply: relative my-2 border border-c-dark pt-6 rounded-md;
 }
 
 .prose div[class*=language-]::before {
@@ -66,14 +95,14 @@ html:not(.dark) .prose .shiki-dark {
 }
 
 .prose .shiki-light code > span.highlighted {
-  @apply bg-gray-200;
+  --at-apply: bg-slate-100;
 }
 
 .prose .shiki-dark code > span.highlighted {
-  @apply bg-gray-800;
+  --at-apply: bg-slate-600;
 }
 
-/* Containers */
+/** Containers **/
 
 .prose .custom-block {
   @apply border rounded-md px-4 py-0 my-6;
@@ -87,20 +116,28 @@ html:not(.dark) .prose .shiki-dark {
   --at-apply: border-c-dark py-4;
 }
 
+.prose .custom-block.info {
+  @apply border-blue-600 dark:border-sky-400;
+}
+
+.prose .custom-block.info .custom-block-title {
+  @apply text-blue-600 dark:text-sky-400;
+}
+
 .prose .custom-block.tip {
-  @apply border-green-600 dark:border-lime-600;
+  @apply border-green-600 dark:border-lime-500;
 }
 
 .prose .custom-block.tip .custom-block-title {
-  @apply text-green-600 dark:text-lime-600;
+  @apply text-green-600 dark:text-lime-500;
 }
 
 .prose .custom-block.warning {
-  @apply border-amber-600;
+  @apply border-amber-600 dark:border-amber-500;
 }
 
 .prose .custom-block.warning .custom-block-title {
-  @apply text-amber-600;
+  @apply text-amber-600 dark:text-amber-500;
 }
 
 .prose .custom-block.danger {
@@ -109,4 +146,14 @@ html:not(.dark) .prose .shiki-dark {
 
 .prose .custom-block.danger .custom-block-title {
   @apply text-red-600 dark:text-red-400;
+}
+
+/** Medium Zoom **/
+
+.medium-zoom-overlay {
+  --at-apply: z-100 bg-c;
+}
+
+.medium-zoom-overlay ~ img {
+  @apply z-101;
 }
