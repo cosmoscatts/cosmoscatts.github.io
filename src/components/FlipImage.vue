@@ -7,7 +7,7 @@ defineProps<{
 
 <template>
   <div class="flip-image perspective-600">
-    <img rounded duration-800 :src="src" :alt="alt">
+    <img class="no-zoom rounded duration-800 !my-0" :src="src" :alt="alt">
   </div>
 </template>
 
