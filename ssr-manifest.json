@@ -228,10 +228,10 @@
     "/assets/bolditalic-28145ed6.woff"
   ],
   "pages/[...all].vue": [
-    "/assets/_...all_-5627d53b.js"
+    "/assets/_...all_-8d2ea506.js"
   ],
   "pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-5627d53b.js"
+    "/assets/_...all_-8d2ea506.js"
   ],
   "pages/index.md": [
     "/assets/regular-5b933bfd.woff",
@@ -240,29 +240,29 @@
     "/assets/bolditalic-28145ed6.woff"
   ],
   "pages/posts/2022-09-28-my-en-blog.md": [
-    "/assets/2022-09-28-my-en-blog-d16cebb8.js"
+    "/assets/2022-09-28-my-en-blog-75c178fe.js"
   ],
   "pages/posts/index.md": [
-    "/assets/index-5b929889.js"
+    "/assets/index-3e9a2af6.js"
   ],
   "pages/posts/tags/[...all].md": [
-    "/assets/_...all_-3bdbea1f.js"
+    "/assets/_...all_-56528101.js"
   ],
   "pages/posts/zh/index.md": [
-    "/assets/index-f16e89ce.js"
+    "/assets/index-a79b41b6.js"
   ],
   "pages/posts/zh/tags/[...all].md": [
-    "/assets/_...all_-6efe7566.js"
+    "/assets/_...all_-f3033ea8.js"
   ],
   "pages/projects.md": [
-    "/assets/projects-9a05babe.js"
+    "/assets/projects-03fb15c1.js"
   ],
   "scripts/slugify.ts": [
-    "/assets/post-27e3abe6.js",
+    "/assets/post-50f56303.js",
     "/assets/post-1d6a6dca.css"
   ],
   "shared/blogs.ts": [
-    "/assets/ToggleLang-c7932b14.js",
+    "/assets/ToggleLang-326dc001.js",
     "/assets/ToggleLang-c9b7a9eb.css"
   ],
   "shared/configs.ts": [
@@ -308,11 +308,11 @@
     "/assets/bolditalic-28145ed6.woff"
   ],
   "src/components/Giscus.vue": [
-    "/assets/post-27e3abe6.js",
+    "/assets/post-50f56303.js",
     "/assets/post-1d6a6dca.css"
   ],
   "src/components/Giscus.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/post-27e3abe6.js",
+    "/assets/post-50f56303.js",
     "/assets/post-1d6a6dca.css"
   ],
   "src/components/Layout.vue": [
@@ -334,25 +334,25 @@
     "/assets/bolditalic-28145ed6.woff"
   ],
   "src/components/ListPosts.vue": [
-    "/assets/ToggleLang-c7932b14.js",
+    "/assets/ToggleLang-326dc001.js",
     "/assets/ToggleLang-c9b7a9eb.css"
   ],
   "src/components/ListPosts.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ToggleLang-c7932b14.js",
+    "/assets/ToggleLang-326dc001.js",
     "/assets/ToggleLang-c9b7a9eb.css"
   ],
   "src/components/ListProjects.vue": [
-    "/assets/projects-9a05babe.js"
+    "/assets/projects-03fb15c1.js"
   ],
   "src/components/ListProjects.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/projects-9a05babe.js"
+    "/assets/projects-03fb15c1.js"
   ],
   "src/components/ListTags.vue": [
-    "/assets/ToggleLang-c7932b14.js",
+    "/assets/ToggleLang-326dc001.js",
     "/assets/ToggleLang-c9b7a9eb.css"
   ],
   "src/components/ListTags.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ToggleLang-c7932b14.js",
+    "/assets/ToggleLang-326dc001.js",
     "/assets/ToggleLang-c9b7a9eb.css"
   ],
   "src/components/Navbar.vue": [
@@ -374,36 +374,36 @@
     "/assets/bolditalic-28145ed6.woff"
   ],
   "src/components/Project.vue": [
-    "/assets/projects-9a05babe.js"
+    "/assets/projects-03fb15c1.js"
   ],
   "src/components/Project.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/projects-9a05babe.js"
+    "/assets/projects-03fb15c1.js"
   ],
   "src/components/ToggleLang.vue": [
-    "/assets/ToggleLang-c7932b14.js",
+    "/assets/ToggleLang-326dc001.js",
     "/assets/ToggleLang-c9b7a9eb.css"
   ],
   "src/components/ToggleLang.vue?vue&type=style&index=0&scoped=227e31e5&lang.css": [
-    "/assets/ToggleLang-c7932b14.js",
+    "/assets/ToggleLang-326dc001.js",
     "/assets/ToggleLang-c9b7a9eb.css"
   ],
   "src/composables/blogs.ts": [
-    "/assets/ToggleLang-c7932b14.js",
+    "/assets/ToggleLang-326dc001.js",
     "/assets/ToggleLang-c9b7a9eb.css"
   ],
   "src/composables/editLink.ts": [
-    "/assets/post-27e3abe6.js",
+    "/assets/post-50f56303.js",
     "/assets/post-1d6a6dca.css"
   ],
   "src/composables/lang.ts": [
-    "/assets/lang-c17a0ecc.js"
+    "/assets/lang-4ff486a1.js"
   ],
   "src/composables/tags.ts": [
-    "/assets/ToggleLang-c7932b14.js",
+    "/assets/ToggleLang-326dc001.js",
     "/assets/ToggleLang-c9b7a9eb.css"
   ],
   "src/layouts/about.vue": [
-    "/assets/about-9b4f355a.js"
+    "/assets/about-ce3349cc.js"
   ],
   "src/layouts/default.vue": [
     "/assets/regular-5b933bfd.woff",
@@ -412,15 +412,15 @@
     "/assets/bolditalic-28145ed6.woff"
   ],
   "src/layouts/post.vue": [
-    "/assets/post-27e3abe6.js",
+    "/assets/post-50f56303.js",
     "/assets/post-1d6a6dca.css"
   ],
   "src/layouts/post.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/post-27e3abe6.js",
+    "/assets/post-50f56303.js",
     "/assets/post-1d6a6dca.css"
   ],
   "src/layouts/post.vue?vue&type=style&index=0&scoped=9b596018&lang.css": [
-    "/assets/post-27e3abe6.js",
+    "/assets/post-50f56303.js",
     "/assets/post-1d6a6dca.css"
   ],
   "src/main.ts": [
