@@ -28,7 +28,7 @@ I'm just infected with a disease called ~~curiosity~~.
 
 ## Miscellaneous
 
-- 🚀 This [personal website](https://github.com/cosmoscatts/cosmoscatts.me) is built on [Vitesse](https://github.com/antfu/vitesse), with the power of [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite) and [UnoCSS](https://github.com/antfu/unocss).
+- 🚀 This [personal website](https://github.com/cosmoscatts/cosmoscatts.github.io) is built on [Vitesse](https://github.com/antfu/vitesse), with the power of [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite) and [UnoCSS](https://github.com/antfu/unocss).
 
 - 🤣 I'm cosmoscatts 🧑🏻‍💻.
 
