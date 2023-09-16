@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Cosmoscatts</title>
+        <link>https://cosmoscatts.ren</link>
+        <description>Just infected with a disease called curiosity.</description>
+        <lastBuildDate>Sat, 16 Sep 2023 18:18:56 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <copyright>© Cosmoscatts 2023</copyright>
+        <atom:link href="https://cosmoscatts.ren/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[关于在 css 模块中使用 Unocss 规则 apply 报错的系列问题]]></title>
+            <link>https://cosmoscatts.ren/posts/2023-09-14-unocss-apply</link>
+            <guid>https://cosmoscatts.ren/posts/2023-09-14-unocss-apply</guid>
+            <pubDate>Thu, 14 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[记录常用的动画工具网站]]></title>
+            <link>https://cosmoscatts.ren/posts/2023-09-13-animation-tools</link>
+            <guid>https://cosmoscatts.ren/posts/2023-09-13-animation-tools</guid>
+            <pubDate>Wed, 13 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[记录 lombok 自动转换 List 类型]]></title>
+            <link>https://cosmoscatts.ren/posts/2023-09-11-lombok-list-auto-transfrom</link>
+            <guid>https://cosmoscatts.ren/posts/2023-09-11-lombok-list-auto-transfrom</guid>
+            <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[如何编写 Web 游戏]]></title>
+            <link>https://cosmoscatts.ren/posts/2022-11-28-how2-write-web-game</link>
+            <guid>https://cosmoscatts.ren/posts/2022-11-28-how2-write-web-game</guid>
+            <pubDate>Mon, 28 Nov 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[First Blog]]></title>
+            <link>https://cosmoscatts.ren/posts/2022-09-08-my-en-blog</link>
+            <guid>https://cosmoscatts.ren/posts/2022-09-08-my-en-blog</guid>
+            <pubDate>Thu, 08 Sep 2022 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

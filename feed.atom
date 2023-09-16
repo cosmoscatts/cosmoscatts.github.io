@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://cosmoscatts.ren</id>
+    <title>Cosmoscatts</title>
+    <updated>2023-09-16T18:18:56.865Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Cosmoscatts</name>
+        <uri>https://cosmoscatts.ren</uri>
+    </author>
+    <link rel="alternate" href="https://cosmoscatts.ren"/>
+    <link rel="self" href="https://cosmoscatts.ren/feed.atom"/>
+    <subtitle>Just infected with a disease called curiosity.</subtitle>
+    <rights>© Cosmoscatts 2023</rights>
+    <entry>
+        <title type="html"><![CDATA[关于在 css 模块中使用 Unocss 规则 apply 报错的系列问题]]></title>
+        <id>https://cosmoscatts.ren/posts/2023-09-14-unocss-apply</id>
+        <link href="https://cosmoscatts.ren/posts/2023-09-14-unocss-apply"/>
+        <updated>2023-09-14T00:00:00.000Z</updated>
+        <author>
+            <name>Cosmoscatts</name>
+            <uri>https://cosmoscatts.ren</uri>
+        </author>
+        <rights>© Cosmoscatts 2023</rights>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记录常用的动画工具网站]]></title>
+        <id>https://cosmoscatts.ren/posts/2023-09-13-animation-tools</id>
+        <link href="https://cosmoscatts.ren/posts/2023-09-13-animation-tools"/>
+        <updated>2023-09-13T00:00:00.000Z</updated>
+        <author>
+            <name>Cosmoscatts</name>
+            <uri>https://cosmoscatts.ren</uri>
+        </author>
+        <rights>© Cosmoscatts 2023</rights>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[记录 lombok 自动转换 List 类型]]></title>
+        <id>https://cosmoscatts.ren/posts/2023-09-11-lombok-list-auto-transfrom</id>
+        <link href="https://cosmoscatts.ren/posts/2023-09-11-lombok-list-auto-transfrom"/>
+        <updated>2023-09-11T00:00:00.000Z</updated>
+        <author>
+            <name>Cosmoscatts</name>
+            <uri>https://cosmoscatts.ren</uri>
+        </author>
+        <rights>© Cosmoscatts 2023</rights>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何编写 Web 游戏]]></title>
+        <id>https://cosmoscatts.ren/posts/2022-11-28-how2-write-web-game</id>
+        <link href="https://cosmoscatts.ren/posts/2022-11-28-how2-write-web-game"/>
+        <updated>2022-11-28T00:00:00.000Z</updated>
+        <author>
+            <name>Cosmoscatts</name>
+            <uri>https://cosmoscatts.ren</uri>
+        </author>
+        <rights>© Cosmoscatts 2023</rights>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Blog]]></title>
+        <id>https://cosmoscatts.ren/posts/2022-09-08-my-en-blog</id>
+        <link href="https://cosmoscatts.ren/posts/2022-09-08-my-en-blog"/>
+        <updated>2022-09-08T00:00:00.000Z</updated>
+        <author>
+            <name>Cosmoscatts</name>
+            <uri>https://cosmoscatts.ren</uri>
+        </author>
+        <rights>© Cosmoscatts 2023</rights>
+    </entry>
+</feed>

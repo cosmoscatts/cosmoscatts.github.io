@@ -1,0 +1,63 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Cosmoscatts",
+    "home_page_url": "https://cosmoscatts.ren",
+    "feed_url": "https://cosmoscatts.ren/feed.json",
+    "description": "Just infected with a disease called curiosity.",
+    "author": {
+        "name": "Cosmoscatts",
+        "url": "https://cosmoscatts.ren"
+    },
+    "items": [
+        {
+            "id": "https://cosmoscatts.ren/posts/2023-09-14-unocss-apply",
+            "url": "https://cosmoscatts.ren/posts/2023-09-14-unocss-apply",
+            "title": "关于在 css 模块中使用 Unocss 规则 apply 报错的系列问题",
+            "date_modified": "2023-09-14T00:00:00.000Z",
+            "author": {
+                "name": "Cosmoscatts",
+                "url": "https://cosmoscatts.ren"
+            }
+        },
+        {
+            "id": "https://cosmoscatts.ren/posts/2023-09-13-animation-tools",
+            "url": "https://cosmoscatts.ren/posts/2023-09-13-animation-tools",
+            "title": "记录常用的动画工具网站",
+            "date_modified": "2023-09-13T00:00:00.000Z",
+            "author": {
+                "name": "Cosmoscatts",
+                "url": "https://cosmoscatts.ren"
+            }
+        },
+        {
+            "id": "https://cosmoscatts.ren/posts/2023-09-11-lombok-list-auto-transfrom",
+            "url": "https://cosmoscatts.ren/posts/2023-09-11-lombok-list-auto-transfrom",
+            "title": "记录 lombok 自动转换 List 类型",
+            "date_modified": "2023-09-11T00:00:00.000Z",
+            "author": {
+                "name": "Cosmoscatts",
+                "url": "https://cosmoscatts.ren"
+            }
+        },
+        {
+            "id": "https://cosmoscatts.ren/posts/2022-11-28-how2-write-web-game",
+            "url": "https://cosmoscatts.ren/posts/2022-11-28-how2-write-web-game",
+            "title": "如何编写 Web 游戏",
+            "date_modified": "2022-11-28T00:00:00.000Z",
+            "author": {
+                "name": "Cosmoscatts",
+                "url": "https://cosmoscatts.ren"
+            }
+        },
+        {
+            "id": "https://cosmoscatts.ren/posts/2022-09-08-my-en-blog",
+            "url": "https://cosmoscatts.ren/posts/2022-09-08-my-en-blog",
+            "title": "First Blog",
+            "date_modified": "2022-09-08T00:00:00.000Z",
+            "author": {
+                "name": "Cosmoscatts",
+                "url": "https://cosmoscatts.ren"
+            }
+        }
+    ]
+}
