@@ -56,13 +56,13 @@ watch(searchText, (n) => {
 
 <template>
   <div class="h-14 w-full -mx-0.5 rounded-lg border-2" :class="isFocus ? '!border-brand/70 dark:!border-blue-300/70' : 'border-transparent'">
-    <div class="flex items-center h-full border rounded" :class="isFocus ? 'border-transparent' : 'border-c-dark'">
+    <div flex items-center h-full border rounded :class="isFocus ? 'border-transparent' : 'border-c-dark'">
       <span w-12 h-full flex items-center justify-center>
         <span class="icon i-uil:search w-5 h-5 text-c-lighter" />
       </span>
       <input
         ref="refInput"
-        class="flex-1 h-full bg-transparent pr-2 placeholder:text-c-lighter focus:outline-none"
+        flex-1 h-full bg-transparent pr-2 placeholder:text-c-lighter focus:outline-none
         placeholder="搜索文章..."
         type="text"
         name="search"
