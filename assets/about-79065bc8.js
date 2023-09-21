@@ -1,1 +1,0 @@
-import{_ as t,r as a,o as c,c as s,w as n,a as r,b as _}from"./app-41ce1120.js";const u={};function f(i,m){const o=a("RouterView"),e=_;return c(),s(e,{class:"about"},{default:n(()=>[r(o)]),_:1})}const l=t(u,[["render",f]]);export{l as default};
