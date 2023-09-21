@@ -19,9 +19,9 @@ export const editLink = {
 
 export const giscus = {
   repo: 'cosmoscatts/cosmoscatts.github.io',
-  repoId: 'R_kgDOIotUQg',
+  repoId: 'R_kgDOKUba6Q',
   category: 'Announcements',
-  categoryId: 'DIC_kwDOIotUQs4CTetz',
+  categoryId: 'DIC_kwDOKUba6c4CZXzv',
   light: 'light',
   dark: `${hostname}/css/giscus-dark.css`,
 }
