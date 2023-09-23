@@ -26,7 +26,7 @@ import {
 } from './shared'
 
 export default defineConfig({
-  base: '.',
+  base: './',
   resolve: {
     alias: {
       '~/': `${resolve(__dirname, 'src')}/`,
