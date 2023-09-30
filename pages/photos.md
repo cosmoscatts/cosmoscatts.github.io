@@ -7,6 +7,21 @@ photos:
   - image: '/photos/2023-06-23/sunset.jpg'
     date: 2023/6/23（周五）
     desc: 晚霞
+  - image: '/photos/2023-05-01/mountain.jpg'  
+    date: 2023/05/01（周一）
+    desc: 山    
+  - image: '/photos/2023-04-13/freedom.jpg'  
+    date: 2023/04/13（周四）
+    desc: 比我自由    
+  - image: '/photos/2023-02-21/temple.jpg'  
+    date: 2023/02/21（周二）
+    desc: 灵隐寺  
+  - image: '/photos/2022-11-08/near-west-lake.jpg'  
+    date: 2022/11/08（周二）
+    desc: 西湖边
+  - image: '/photos/2022-12-01/snow.jpg'  
+    date: 2022/12/01（周四）
+    desc: 雪
 ---
 
 <!-- @layout-full-width -->
