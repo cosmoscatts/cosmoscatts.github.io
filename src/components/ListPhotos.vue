@@ -33,7 +33,7 @@ const parts = computed(() => {
 <template>
   <div w-90vw mxa mb-5>
     <div text-4xl font-bold>
-      照片集 · 随手拍
+      Photos · 随手拍
     </div>
   </div>
 

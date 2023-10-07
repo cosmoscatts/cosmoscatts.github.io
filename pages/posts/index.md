@@ -2,7 +2,7 @@
 title: Blog - Cosmoscatts
 ---
 
-# Blog · 碎碎念 
+# Blog · 博客 
 
 <ListTags />
 <ListPosts />
