@@ -26,43 +26,43 @@
   "../../../../../images/home/hello.png": [
   ],
   "../../../../../images/in-post/2022-09-08/header.jpg": [
-    "./assets/2022-09-08-my-en-blog-14f10d1f.js"
+    "./assets/2022-09-08-my-en-blog-48eeebac.js"
   ],
   "../../../../../images/in-post/2022-11-28/header.jpeg": [
-    "./assets/2022-11-28-how2-write-web-game-ff911dfd.js"
+    "./assets/2022-11-28-how2-write-web-game-73b794ad.js"
   ],
   "../../../../../images/in-post/2022-11-28/kof.png": [
-    "./assets/2022-11-28-how2-write-web-game-ff911dfd.js"
+    "./assets/2022-11-28-how2-write-web-game-73b794ad.js"
   ],
   "../../../../../images/in-post/2022-11-28/snakegame.png": [
-    "./assets/2022-11-28-how2-write-web-game-ff911dfd.js"
+    "./assets/2022-11-28-how2-write-web-game-73b794ad.js"
   ],
   "../../../../../images/in-post/2023-09-11/header.jpg": [
-    "./assets/2023-09-11-lombok-list-auto-transfrom-cf1f03a5.js"
+    "./assets/2023-09-11-lombok-list-auto-transfrom-a7a80992.js"
   ],
   "../../../../../images/in-post/2023-09-13/header.jpeg": [
-    "./assets/2023-09-13-animation-tools-77d5c139.js"
+    "./assets/2023-09-13-animation-tools-69f44f4a.js"
   ],
   "../../../../../images/in-post/2023-09-14/apply-error-solution.png": [
-    "./assets/2023-09-14-unocss-apply-87ec257b.js"
+    "./assets/2023-09-14-unocss-apply-5a87138f.js"
   ],
   "../../../../../images/in-post/2023-09-14/apply-error.png": [
-    "./assets/2023-09-14-unocss-apply-87ec257b.js"
+    "./assets/2023-09-14-unocss-apply-5a87138f.js"
   ],
   "../../../../../images/in-post/2023-09-14/apply-self-rules-error-solution.png": [
-    "./assets/2023-09-14-unocss-apply-87ec257b.js"
+    "./assets/2023-09-14-unocss-apply-5a87138f.js"
   ],
   "../../../../../images/in-post/2023-09-14/apply-self-rules-error.png": [
-    "./assets/2023-09-14-unocss-apply-87ec257b.js"
+    "./assets/2023-09-14-unocss-apply-5a87138f.js"
   ],
   "../../../../../images/in-post/2023-09-14/header.jpeg": [
-    "./assets/2023-09-14-unocss-apply-87ec257b.js"
+    "./assets/2023-09-14-unocss-apply-5a87138f.js"
   ],
   "../../../../../images/in-post/2023-09-14/uno-alias.png": [
-    "./assets/2023-09-14-unocss-apply-87ec257b.js"
+    "./assets/2023-09-14-unocss-apply-5a87138f.js"
   ],
   "../../../../../images/in-post/2023-09-14/unocss-transformer-directives.png": [
-    "./assets/2023-09-14-unocss-apply-87ec257b.js"
+    "./assets/2023-09-14-unocss-apply-5a87138f.js"
   ],
   "assets/app-!~{001}~.js-unocss-hash.css": [
   ],
@@ -95,7 +95,7 @@
   "node_modules/.pnpm/registry.npmmirror.com+dayjs@1.11.10/node_modules/dayjs/dayjs.min.js": [
   ],
   "node_modules/.pnpm/registry.npmmirror.com+fuse.js@6.6.2/node_modules/fuse.js/dist/fuse.esm.js": [
-    "./assets/search-620450c6.js"
+    "./assets/search-05c1ebb4.js"
   ],
   "node_modules/.pnpm/registry.npmmirror.com+hookable@5.5.3/node_modules/hookable/dist/index.mjs": [
   ],
@@ -118,52 +118,52 @@
   "node_modules/.pnpm/registry.npmmirror.com+vue-router@4.2.5_vue@3.3.4/node_modules/vue-router/dist/vue-router.mjs": [
   ],
   "pages/[...all].vue": [
-    "./assets/_...all_-7ec0994c.js"
+    "./assets/_...all_-b9d8425a.js"
   ],
   "pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/_...all_-7ec0994c.js"
+    "./assets/_...all_-b9d8425a.js"
   ],
   "pages/index.md": [
   ],
   "pages/photos.md": [
-    "./assets/photos-8de91b41.js"
+    "./assets/photos-67491703.js"
   ],
   "pages/posts/2022-09-08-my-en-blog.md": [
-    "./assets/2022-09-08-my-en-blog-14f10d1f.js"
+    "./assets/2022-09-08-my-en-blog-48eeebac.js"
   ],
   "pages/posts/2022-11-28-how2-write-web-game.md": [
-    "./assets/2022-11-28-how2-write-web-game-ff911dfd.js"
+    "./assets/2022-11-28-how2-write-web-game-73b794ad.js"
   ],
   "pages/posts/2023-09-11-lombok-list-auto-transfrom.md": [
-    "./assets/2023-09-11-lombok-list-auto-transfrom-cf1f03a5.js"
+    "./assets/2023-09-11-lombok-list-auto-transfrom-a7a80992.js"
   ],
   "pages/posts/2023-09-13-animation-tools.md": [
-    "./assets/2023-09-13-animation-tools-77d5c139.js"
+    "./assets/2023-09-13-animation-tools-69f44f4a.js"
   ],
   "pages/posts/2023-09-14-unocss-apply.md": [
-    "./assets/2023-09-14-unocss-apply-87ec257b.js"
+    "./assets/2023-09-14-unocss-apply-5a87138f.js"
   ],
   "pages/posts/index.md": [
-    "./assets/index-62e15eba.js"
+    "./assets/index-e1c67572.js"
   ],
   "pages/posts/tags/[...all].md": [
-    "./assets/_...all_-e99833bc.js"
+    "./assets/_...all_-bcc897e5.js"
   ],
   "pages/projects.md": [
-    "./assets/projects-9e3d7e68.js"
+    "./assets/projects-cfb63357.js"
   ],
   "pages/search.vue": [
-    "./assets/search-620450c6.js"
+    "./assets/search-05c1ebb4.js"
   ],
   "pages/search.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/search-620450c6.js"
+    "./assets/search-05c1ebb4.js"
   ],
   "scripts/slugify.ts": [
-    "./assets/post-526ce5f0.js",
-    "./assets/post-11c1301d.css"
+    "./assets/post-823dd924.js",
+    "./assets/post-a70e0600.css"
   ],
   "shared/blogs.ts": [
-    "./assets/blogs-1fbc0cf1.js"
+    "./assets/blogs-7fa31d65.js"
   ],
   "shared/configs.ts": [
   ],
@@ -182,79 +182,79 @@
   "src/components/Footer.vue": [
   ],
   "src/components/Giscus.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/post-526ce5f0.js",
-    "./assets/post-11c1301d.css"
+    "./assets/post-823dd924.js",
+    "./assets/post-a70e0600.css"
   ],
   "src/components/Layout.vue?vue&type=script&setup=true&lang.ts": [
   ],
   "src/components/Links.vue?vue&type=script&setup=true&lang.ts": [
   ],
   "src/components/ListPhotos.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/photos-8de91b41.js"
+    "./assets/photos-67491703.js"
   ],
   "src/components/ListPosts.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/ListTags-9651ff18.js",
-    "./assets/ListTags-2e256f68.css"
+    "./assets/ListTags-0de2e3d0.js",
+    "./assets/ListTags-a7192fd1.css"
   ],
   "src/components/ListProjects.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/projects-9e3d7e68.js"
+    "./assets/projects-cfb63357.js"
   ],
   "src/components/ListTags.vue": [
-    "./assets/ListTags-9651ff18.js",
-    "./assets/ListTags-2e256f68.css"
+    "./assets/ListTags-0de2e3d0.js",
+    "./assets/ListTags-a7192fd1.css"
   ],
   "src/components/ListTags.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/ListTags-9651ff18.js",
-    "./assets/ListTags-2e256f68.css"
+    "./assets/ListTags-0de2e3d0.js",
+    "./assets/ListTags-a7192fd1.css"
   ],
-  "src/components/ListTags.vue?vue&type=style&index=0&scoped=5fefd28b&lang.css": [
-    "./assets/ListTags-9651ff18.js",
-    "./assets/ListTags-2e256f68.css"
+  "src/components/ListTags.vue?vue&type=style&index=0&scoped=3ff30821&lang.css": [
+    "./assets/ListTags-0de2e3d0.js",
+    "./assets/ListTags-a7192fd1.css"
   ],
   "src/components/Navbar.vue": [
   ],
   "src/components/Navbar.vue?vue&type=script&setup=true&lang.ts": [
   ],
-  "src/components/Navbar.vue?vue&type=style&index=0&scoped=c21308c4&lang.css": [
+  "src/components/Navbar.vue?vue&type=style&index=0&scoped=6a571180&lang.css": [
   ],
   "src/components/Project.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/projects-9e3d7e68.js"
+    "./assets/projects-cfb63357.js"
   ],
   "src/components/SearchComp.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/search-620450c6.js"
+    "./assets/search-05c1ebb4.js"
   ],
   "src/components/TextCopy.vue?vue&type=script&setup=true&lang.ts": [
   ],
   "src/components/WrapperPhoto.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/photos-8de91b41.js"
+    "./assets/photos-67491703.js"
   ],
   "src/composables/blogs.ts": [
-    "./assets/blogs-1fbc0cf1.js"
+    "./assets/blogs-7fa31d65.js"
   ],
   "src/composables/edit-link.ts": [
-    "./assets/post-526ce5f0.js",
-    "./assets/post-11c1301d.css"
+    "./assets/post-823dd924.js",
+    "./assets/post-a70e0600.css"
   ],
   "src/composables/tags.ts": [
-    "./assets/ListTags-9651ff18.js",
-    "./assets/ListTags-2e256f68.css"
+    "./assets/ListTags-0de2e3d0.js",
+    "./assets/ListTags-a7192fd1.css"
   ],
   "src/layouts/about.vue": [
-    "./assets/about-8a67055c.js"
+    "./assets/about-05545de3.js"
   ],
   "src/layouts/default.vue?vue&type=script&setup=true&lang.ts": [
   ],
   "src/layouts/post.vue": [
-    "./assets/post-526ce5f0.js",
-    "./assets/post-11c1301d.css"
+    "./assets/post-823dd924.js",
+    "./assets/post-a70e0600.css"
   ],
   "src/layouts/post.vue?vue&type=script&setup=true&lang.ts": [
-    "./assets/post-526ce5f0.js",
-    "./assets/post-11c1301d.css"
+    "./assets/post-823dd924.js",
+    "./assets/post-a70e0600.css"
   ],
-  "src/layouts/post.vue?vue&type=style&index=0&scoped=cbf28caa&lang.css": [
-    "./assets/post-526ce5f0.js",
-    "./assets/post-11c1301d.css"
+  "src/layouts/post.vue?vue&type=style&index=0&scoped=6af74a53&lang.css": [
+    "./assets/post-823dd924.js",
+    "./assets/post-a70e0600.css"
   ],
   "src/main.ts": [
   ],
