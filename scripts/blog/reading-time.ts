@@ -61,8 +61,7 @@ function excludeTexBlock(text: string): string {
   return text.replace(/\$\$[\s\S]*?\$\$/g, '')
 }
 
-export function readingTime(text: string,
-  options?: ReadingTimeOptions): ReadingTime {
+export function readingTime(text: string, options?: ReadingTimeOptions): ReadingTime {
   options = options || {}
 
   // use default values if necessary

@@ -12,9 +12,8 @@ export const highlightLines: PluginSimple = (md) => {
     const token = tokens[idx]
     const info = token.info
 
-    if (!info || !RE.test(info)) {
+    if (!info || !RE.test(info))
       return fence(...args)
-    }
 
     const lang = info.replace(RE, '').trim()
 

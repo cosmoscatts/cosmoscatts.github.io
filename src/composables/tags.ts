@@ -7,7 +7,8 @@ export function useTags() {
       const la = tagMap.value[a].blogs.length
       const lb = tagMap.value[b].blogs.length
 
-      if (la === lb) return a.localeCompare(b)
+      if (la === lb)
+        return a.localeCompare(b)
       return lb - la
     }),
   )

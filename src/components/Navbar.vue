@@ -18,11 +18,13 @@ if (isClient) {
     if (directions.top) {
       if (y.value > 0 && isFixed.value) {
         isVisible.value = true
-      } else {
+      }
+      else {
         isVisible.value = false
         isFixed.value = false
       }
-    } else if (directions.bottom) {
+    }
+    else if (directions.bottom) {
       isVisible.value = false
       if (navbar.value && y.value > navbar.value!.offsetHeight)
         isFixed.value = true

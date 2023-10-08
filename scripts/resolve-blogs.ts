@@ -11,7 +11,8 @@ function isBlog(route: any) {
 }
 
 export function resolveBlogFile(route: any) {
-  if (!isBlog(route)) return
+  if (!isBlog(route))
+    return
 
   const path = resolvePath(route.component.slice(1))
   const md = fs.readFileSync(path, 'utf-8')

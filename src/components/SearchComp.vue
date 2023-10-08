@@ -33,12 +33,12 @@ const refInput = ref<HTMLInputElement>()
 onMounted(() => {
   const searchUrl = new URLSearchParams(window.location.search)
   const searchStr = searchUrl.get('q')
-  if (searchStr) searchText.value = searchStr
+  if (searchStr)
+    searchText.value = searchStr
 
   useTimeoutFn(() => {
-    if (refInput.value) {
+    if (refInput.value)
       refInput.value.selectionStart = refInput.value.selectionEnd = searchStr?.length || 0
-    }
   }, 50)
 })
 

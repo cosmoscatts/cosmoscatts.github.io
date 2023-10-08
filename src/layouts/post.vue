@@ -47,14 +47,16 @@ onMounted(() => {
       && !event.altKey
     ) {
       const url = new URL(link.href)
-      if (url.origin !== window.location.origin) return
+      if (url.origin !== window.location.origin)
+        return
 
       event.preventDefault()
       const { pathname, hash } = url
       if (hash && (!pathname || pathname === location.pathname)) {
         window.history.replaceState({}, '', hash)
         navigate()
-      } else {
+      }
+      else {
         router.push({ path: pathname, hash })
       }
     }

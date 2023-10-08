@@ -2,7 +2,8 @@
 const route = useRoute()
 function getBackPath() {
   const path = route.path.split('/').slice(0, -1).join('/') || '/'
-  if (path === '/posts/tags') return '/posts'
+  if (path === '/posts/tags')
+    return '/posts'
   return path
 }
 </script>

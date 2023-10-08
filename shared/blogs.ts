@@ -29,7 +29,8 @@ export function getBlogs(
   routes: any[],
   options?: {
     tag?: string
-  }): BlogType[] {
+  },
+): BlogType[] {
   return routes
     // is blog
     .filter((item: any) => item.meta?.layout === 'post' && !!item.name)

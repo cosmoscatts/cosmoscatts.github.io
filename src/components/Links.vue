@@ -13,13 +13,15 @@ function isExternal(link: string) {
 }
 
 function getHoverColorClass(alias?: string) {
-  if (!alias) return ''
+  if (!alias)
+    return ''
   const colorMap: Record<string, string> = {
     twitter: 'hover:(!bg-#00ACEE !text-white)',
     bilibili: 'hover:(!bg-#FB7299 !text-white)',
     zhihu: 'hover:(!bg-#056DE8 !text-white)',
   }
-  if (!Object.keys(colorMap).includes(alias)) return ''
+  if (!Object.keys(colorMap).includes(alias))
+    return ''
   return colorMap[alias]
 }
 </script>

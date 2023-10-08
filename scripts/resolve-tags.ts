@@ -11,18 +11,20 @@ export function resolveTags(routes: any[]) {
     .filter(item => item.meta?.layout === 'post')
     .forEach((item) => {
       item.meta.frontmatter.tags?.forEach((tag: string) => {
-        if (tag in tagMap) tagMap[tag].blogs.push(item.path)
-        else
+        if (tag in tagMap) { tagMap[tag].blogs.push(item.path) }
+        else {
           tagMap[tag] = {
             path: `/posts/tags/${slugify(tag)}`,
             blogs: [item.path],
           }
+        }
       })
     })
 
   return routes.map((item) => {
     if (item.path === '/posts' || item.path.startsWith('/posts/tags/')) {
-      if (!item.meta) item.meta = {}
+      if (!item.meta)
+        item.meta = {}
       item.meta.tagMap = tagMap
     }
     return item

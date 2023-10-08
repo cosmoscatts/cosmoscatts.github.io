@@ -6,9 +6,7 @@ import container from 'markdown-it-container'
 
 type ContainerArgs = [typeof container, string, { render: RenderRule }]
 
-function createContainer(clazz: string,
-  defaultTitle: string,
-  md: MarkdownIt): ContainerArgs {
+function createContainer(clazz: string, defaultTitle: string, md: MarkdownIt): ContainerArgs {
   return [
     container,
     clazz,
@@ -16,11 +14,12 @@ function createContainer(clazz: string,
       render(tokens, idx) {
         const token = tokens[idx]
         const info = token.info.trim().slice(clazz.length).trim()
-        if (token.nesting !== 1) return clazz === 'details' ? '</details>\n' : '</div>\n'
+        if (token.nesting !== 1)
+          return clazz === 'details' ? '</details>\n' : '</div>\n'
         const title = md.renderInline(info || defaultTitle)
-        if (clazz === 'details') {
+        if (clazz === 'details')
           return `<details class="${clazz} custom-block"><summary>${title}</summary>\n`
-        }
+
         return `<div class="${clazz} custom-block"><p class="custom-block-title">${title}</p>\n`
       },
     },
@@ -35,7 +34,8 @@ function createPubContainer(): ContainerArgs {
       render(tokens, idx) {
         const token = tokens[idx]
         const info = token.info.trim().slice(3).trim()
-        if (token.nesting !== 1) return '</div></div>\n'
+        if (token.nesting !== 1)
+          return '</div></div>\n'
         if (info !== '') {
           const images
             = `<div>${

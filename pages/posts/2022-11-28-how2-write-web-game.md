@@ -69,7 +69,8 @@ function step(timestamp: number) {
     if (!obj.hasCalledStart) { // 第一次执行 start 方法
       obj.hasCalledStart = true
       obj.start()
-    } else {
+    }
+    else {
       obj.timeDelta = timestamp - lastTimestamp
       obj.update()
     }

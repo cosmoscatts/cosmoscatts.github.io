@@ -6,7 +6,8 @@ const totalblogNum = useBlog().blogs.value.length
 const ALL_URL = '/posts'
 
 function blogNum(tag?: string) {
-  if (!tag) return totalblogNum
+  if (!tag)
+    return totalblogNum
   else return tagMap.value[tag].blogs.length
 }
 </script>
